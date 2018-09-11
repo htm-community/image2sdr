@@ -1,0 +1,15 @@
+# Eclipse project files
+.project
+
+# Node modules
+node_modules
+
+# Config files
+config.yml
+
+# Uploads folder
+uploads/
+
+# NPM log
+npm-debug.log
+

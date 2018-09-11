@@ -1,0 +1,30 @@
+{
+  "name": "image2sdr",
+  "version": "1.0.0",
+  "description": "Service to generate SDRs from images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:htm-community/image2sdr.git"
+  },
+  "keywords": [
+    "sdr",
+    "htm",
+    "cortical.io",
+    "clarifai"
+  ],
+  "author": "Paul Lamb",
+  "license": "AGPL-3.0",
+  "devDependencies": {},
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.2.0",
+    "restify": "^7.2.1",
+    "restify-cors-middleware": "^1.1.1",
+    "yamljs": "^0.3.0"
+  }
+}

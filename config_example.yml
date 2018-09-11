@@ -1,0 +1,14 @@
+environment: Development
+port: 80
+# Cortical.io's default retina is en_associative, with SDR size 16384
+cortical_io:
+    url: http://api.cortical.io/rest/
+    api_key: your_api_key_here
+    retina: en_associative
+    sdr_size: 16384
+# Clarifai's "General" model is: aaa03c23b3724a16a56b629203edc62c
+clarifai:
+    url: https://api.clarifai.com/v2/
+    api_key: your_api_key_here
+    model: aaa03c23b3724a16a56b629203edc62c
+sparsity: 0.02
