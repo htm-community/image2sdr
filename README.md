@@ -2,11 +2,13 @@
 NodeJS service to generate SDRs for images
 
 ------------
-# AT A MINIMUM
+# GETTING STARTED
 
 Copy config_example.yml into a file named config.yml
 
 Enter your Cortical.io and Clarifai API keys in config.yml
+
+Create a folder called "uploads", where uploaded files will temporarily be stored
 
 ------------
 # OTHER OPTIONS
@@ -20,6 +22,8 @@ The sparsity of the generated SDRs can be changed from default 0.02 (if set to 1
 The listening port can be modified
 
 Dockerfile is included for running service in a container
+
+If running in Docker, use the -v flag to mount a host folder to /usr/src/app/uploads
 
 Set Environment to "Production" to disable verbose logging
 
